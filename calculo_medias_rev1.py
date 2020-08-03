@@ -14,7 +14,7 @@ except:
     quit()
 #print(hsemanais, phora)
 
-print("Nome:", name)
+print("Nome:", name) 
 print("Idade:", year)
 print("Profissão:", profissao)
 if hs > 40 :
