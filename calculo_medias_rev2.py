@@ -3,7 +3,7 @@ year= input("Qual sua idade?")
 try:
     yyear= float(year)
 except: print("Error, please enter a numeric number.")
-
+#entrar apenas com numeros
 profissao= input("Qual sua sua profissão?")
 print("Cadastro realizado com sucesso.")
 print("Só mais algumas informações e vamos calcular seu ganho semanal.")
