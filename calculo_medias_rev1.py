@@ -1,5 +1,9 @@
 name= input("Qual seu nome?")
 year= input("Qual sua idade?")
+try:
+    yyear= float(year)
+except: print("Error, please enter a numeric number.")
+
 profissao= input("Qual sua sua profissão?")
 print("Cadastro realizado com sucesso.")
 print("Só mais algumas informações e vamos calcular seu ganho semanal.")
@@ -14,7 +18,7 @@ except:
     quit()
 #print(hsemanais, phora)
 
-print("Nome:", name) 
+print("Nome:", name)
 print("Idade:", year)
 print("Profissão:", profissao)
 if hs > 40 :
