@@ -45,7 +45,7 @@ except:
 print("Nome:", name)
 print("Idade:", year)
 print("Profissão:", profissao)
-
+#converte o hs e ph para print xp que de ganho.
 xp = ganho(hs, ph)
 print(xp)
 print('Boa semana!')
