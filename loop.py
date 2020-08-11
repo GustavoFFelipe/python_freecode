@@ -1,30 +1,32 @@
-while True:
-    line = input('>')
-    if line == 'done' :
-        break
-        print(line)
-        print('Done')
+number = input()
+sub = input()
+num = float(number)
+sub1 = float(sub)
+while num > 2:
+    num = num - sub1
+    print(num)
 
-x=5
+
+x=0
 print('5 is the begin')
 def history():
     print('Another history to tell.')
     print('Another count to make.')
     #return "Another day"
 
-x1 = 5 + 3
+x1 = x + 3
 print('If we plus 3 in 5.')
 print('We have', x1)
-#hirtory()
+history()
 
-#def number(double):
-    #if double > 8:
-    #    print("Double is more")
-#    elif double = 8:
-        #print("Everything is equal")
-    #else:
-        #print('Yo this is less')
+def number(num1):
+    if num1 > 8:
+      print("Double is more")
+    elif num1 ==  8:
+        print("Everything is equal")
+    else:
+        print('Yo this is less')
 
-#number(15)
-#number(3)
-#number(8)
+number(15)
+number(3)
+number(8)
